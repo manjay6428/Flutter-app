@@ -5,14 +5,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int days = 20;
+    int days = 100;
+    var name = "Manjay";
     return Scaffold(
       appBar: AppBar(
-        title: Text("Manjay's Website!"),
+        title: Text("FLUTTER APP"),
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to Manjay's $days days of Flutter!"),
+          child: Text("Welcome to $name 's $days days of Flutter"),
         ),
       ),
       drawer: Drawer(),
