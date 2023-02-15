@@ -10,7 +10,13 @@ class HomePage extends StatelessWidget {
     var name = "Manjay";
     return Scaffold(
       appBar: AppBar(
-        title: Text("FLUTTER APP"),
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        iconTheme: const IconThemeData(color: Colors.black),
+        title: const Text(
+          "FLUTTER APP",
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Container(
